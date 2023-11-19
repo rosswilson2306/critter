@@ -10,7 +10,7 @@ export type MessageData = {
 
 export default function Message({ name, handle, time, content, media }: MessageData) {
   return (
-    <article className={'px-4 py-2 grid grid-cols-8'}>
+    <article className="px-4 py-2 grid grid-cols-8">
       <div className="p-2">
         <Avatar initials="SH" />
       </div>
