@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Johnny Cash",
+    "handle": "@johnny_cash",
+    "time": "Yesterday",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "name": "Suzie Banshee",
+    "handle": "@big_sue",
+    "time": "3 hours ago",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "name": "Maggie Mae",
+    "handle": "@mags_mae",
+    "time": "2 hours ago",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "name": "Willie Nelson",
+    "handle": "@smoking_willie",
+    "time": "1 hour ago",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  }
+]

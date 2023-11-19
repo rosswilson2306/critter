@@ -1,4 +1,5 @@
-import Message from '@/components/nav/message.component';
+import Message from '@/components/message.component';
+import Messages from '@/components/messages.component';
 
 const MESSAGES = [
   {
@@ -13,11 +14,9 @@ const MESSAGES = [
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between col-span-5">
       <section className="flex flex-col">
-        {MESSAGES.map((message) => (
-          <Message key={message.id} {...message} />
-        ))}
+        <Messages />
       </section>
     </main>
   );

@@ -1,21 +1,19 @@
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import './globals.css'
-import Navbar from '@/components/nav/navbar.component'
-import TopBar from '@/components/nav/topbar.component'
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import './globals.css';
+import Navbar from '@/components/nav/navbar.component';
+import TopBar from '@/components/nav/topbar.component';
 
-const inter = Inter({ subsets: ['latin'] })
+// export const runtime = 'nodejs';
+
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Critter',
   description: 'Twitter-like clone using server sent events for messaging',
-}
+};
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body className={`grid grid-cols-6 grid-rows-6 h-screen ${inter.className}`}>
@@ -24,5 +22,5 @@ export default function RootLayout({
         {children}
       </body>
     </html>
-  )
+  );
 }
